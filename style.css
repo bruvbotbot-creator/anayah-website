@@ -18,16 +18,17 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.15;
-    background: 
-        radial-gradient(circle 40px at 15% 15%, #003262 30%, transparent 31%),
-        radial-gradient(circle 40px at 85% 15%, #2774AE 30%, transparent 31%),  
-        radial-gradient(circle 40px at 50% 40%, #182B49 30%, transparent 31%),
-        radial-gradient(circle 40px at 20% 70%, #003C6C 30%, transparent 31%),
-        radial-gradient(circle 40px at 80% 70%, #4F2683 30%, transparent 31%),
-        radial-gradient(circle 40px at 50% 85%, #003660 30%, transparent 31%);
-    background-size: 300px 300px;
-    animation: float 45s ease-in-out infinite;
+    opacity: 0.12;
+    background-image: 
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><path d="M10 20 L50 10 L90 20 L90 70 Q90 85 50 100 Q10 85 10 70 Z" fill="rgb(0,50,98)" stroke="rgb(253,181,21)" stroke-width="2"/><text x="50" y="45" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="rgb(253,181,21)">UC</text><text x="50" y="65" font-family="serif" font-size="8" text-anchor="middle" fill="rgb(253,181,21)">Berkeley</text></svg>'),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><path d="M10 20 L50 10 L90 20 L90 70 Q90 85 50 100 Q10 85 10 70 Z" fill="rgb(39,116,174)" stroke="rgb(255,209,0)" stroke-width="2"/><text x="50" y="45" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="rgb(255,209,0)">UC</text><text x="50" y="65" font-family="serif" font-size="8" text-anchor="middle" fill="rgb(255,209,0)">UCLA</text></svg>'),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><path d="M10 20 L50 10 L90 20 L90 70 Q90 85 50 100 Q10 85 10 70 Z" fill="rgb(24,43,73)" stroke="rgb(198,146,20)" stroke-width="2"/><text x="50" y="45" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="rgb(198,146,20)">UC</text><text x="50" y="65" font-family="serif" font-size="7" text-anchor="middle" fill="rgb(198,146,20)">San Diego</text></svg>'),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><path d="M10 20 L50 10 L90 20 L90 70 Q90 85 50 100 Q10 85 10 70 Z" fill="rgb(0,60,108)" stroke="rgb(255,191,0)" stroke-width="2"/><text x="50" y="45" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="rgb(255,191,0)">UC</text><text x="50" y="65" font-family="serif" font-size="8" text-anchor="middle" fill="rgb(255,191,0)">Davis</text></svg>'),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><path d="M10 20 L50 10 L90 20 L90 70 Q90 85 50 100 Q10 85 10 70 Z" fill="rgb(79,38,131)" stroke="rgb(255,210,0)" stroke-width="2"/><text x="50" y="45" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="rgb(255,210,0)">UC</text><text x="50" y="65" font-family="serif" font-size="8" text-anchor="middle" fill="rgb(255,210,0)">Irvine</text></svg>');
+    background-repeat: repeat;
+    background-size: 160px 160px;
+    background-position: 0 0, 80px 80px, 160px 0, 240px 80px, 80px 160px;
+    animation: float 50s ease-in-out infinite;
     z-index: -1;
 }
 
