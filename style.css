@@ -18,18 +18,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.08;
+    opacity: 0.03;
     background-image: 
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><text x="10" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="%23003262">UC Berkeley</text><text x="10" y="80" font-family="Arial, sans-serif" font-size="16" fill="%23FDB515">Golden Bears</text></svg>'),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><text x="10" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="%232774AE">UCLA</text><text x="10" y="80" font-family="Arial, sans-serif" font-size="16" fill="%23FFD100">Bruins</text></svg>'),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><text x="10" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="%23182B49">UC San Diego</text><text x="10" y="80" font-family="Arial, sans-serif" font-size="16" fill="%23C69214">Tritons</text></svg>'),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><text x="10" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="%23003C6C">UC Davis</text><text x="10" y="80" font-family="Arial, sans-serif" font-size="16" fill="%23FFBF00">Aggies</text></svg>'),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><text x="10" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="%234F2683">UC Irvine</text><text x="10" y="80" font-family="Arial, sans-serif" font-size="16" fill="%23FFD200">Anteaters</text></svg>'),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><text x="10" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="%23003660">UC Santa Barbara</text><text x="10" y="80" font-family="Arial, sans-serif" font-size="16" fill="%23FEBC11">Gauchos</text></svg>');
-    background-repeat: repeat;
-    background-size: 300px 150px;
-    background-position: 0 0, 150px 75px, 300px 0, 450px 75px, 0 150px, 150px 225px;
-    animation: float 25s ease-in-out infinite;
+        radial-gradient(circle at 20% 20%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(0, 50, 98, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 60%, rgba(255, 215, 0, 0.05) 0%, transparent 50%);
+    background-size: 400px 400px, 500px 500px, 300px 300px;
+    background-position: 0 0, 100px 100px, 300px 50px;
+    animation: float 30s ease-in-out infinite;
     z-index: -1;
 }
 
